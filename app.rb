@@ -31,7 +31,7 @@ Cuba.define do
   on root do
     log.info("GET /")
 
-    res.text("Welcome to the NginxMockAuthApp!")
+    res.text("Welcome to the NginxMockAuthAdapterApp!")
   end
 
   on "info" do
